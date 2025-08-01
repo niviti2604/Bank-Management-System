@@ -1,0 +1,25 @@
+# Ignore compiled binary files
+bank
+*.exe
+*.out
+*.o
+
+# Ignore temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+.DS_Store
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.code-workspace
+
+# Ignore dependency files
+*.d
+*.dep
+
+# Ignore JSON & CSV data files
+data/accounts.json
+data/accounts.csv
